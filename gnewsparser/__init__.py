@@ -11,9 +11,6 @@ class GnewsParser:
         "en-us": "&hl=en-US&gl=US&ceid=US:en",
         "en-gb": "&hl=en-GB&gl=GB&ceid=GB:en"
     }
-    __EN_US_LOCALE = "&hl=en-US&gl=US&ceid=US:en"
-    __SK_SK_LOCALE = "&hl=sk&gl=SK&ceid=SK:sk"
-    __EN_SK_LOCALE = "&hl=sk&gl=SK&ceid=SK:sk"
 
     def __init__(self):
         self.__url = GnewsParser.__BASE_URL
